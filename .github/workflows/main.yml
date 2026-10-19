@@ -1,8 +1,6 @@
-YAML
-
 name: Build Android APK
 
-on:
+'on':
   workflow_dispatch:
   push:
     paths:
