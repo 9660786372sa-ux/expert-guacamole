@@ -3,9 +3,9 @@ name: Build Android APK
 'on':
   workflow_dispatch:
   push:
-    paths:
-      - 'downloadfile-1.zip'
-      - '.github/workflows/main.yml'
+  paths:
+    - 'downloadfile-1-updated.zip'
+    - '.github/workflows/main.yml'
 
 permissions:
   contents: read
